@@ -14,15 +14,18 @@ body{
     background-color: rgb(8, 25, 54);
     font-family: 'Varela Round', sans-serif;
     color:rgb(179, 131, 252);
+    overflow: hidden;
 }
 
 .name{
     height: 10vh;
     padding-top:20px;
     margin-top: 10px;
+    display: flex;
 }
 .name h1{
     font-size: 65px;
+    padding-right: 10px;
 }
 .input{
     display: flex;
@@ -44,12 +47,15 @@ body{
     color:rgb(179, 131, 252);
     background-color: rgb(8, 25, 54);
 }
+#card--container{
+    height: 65vh;
+}
 .result{
     display: flex;
     flex-direction: column;
     height: auto;
     margin-top: 1vh;
-    width: 30vw;
+    width: 23vw;
     box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.549);
     border-radius: 20px;
     
@@ -95,4 +101,20 @@ body{
 #icon img{
     width: auto;
     height: auto;
+}
+.contact{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items :center;
+    padding-bottom: 10px;
+}
+a{
+    padding: 20px;
+}
+a:hover{
+    transition: all 0.3s linear;
+    color:rgb(179, 131, 252);
+    transform: scale(1.5);
 }

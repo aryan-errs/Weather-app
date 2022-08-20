@@ -13,6 +13,10 @@ function enter(e) {
     if (e.keyCode === 13) {
         console.log(1);
         var text = cityname.value;
+        if(text === ""){
+            alert("Please enter a city.")
+            return
+        }
         var str1 = text.charAt(0).toUpperCase() + text.slice(1).toLowerCase();
         city.innerText =  str1;
 

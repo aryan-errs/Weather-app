@@ -1,26 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/3a96c6052d.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <div class="name"><h1>A Simple Weather App</h1></div>
-    <div class="input">
-        <input id="cityname" type="text" placeholder="Search..">
+    <div class="name">
+        <h1>A Simple Weather App</h1>
+        <img src="/sun-cloud.png" width="70px" height="70px" alt="">
     </div>
-    <div class="result res1">
-        <p id="city"></p>
-        <div>
-            <span id="icon"></span>
-            <p id="sky">Sky condition:</p>
-            <p id="temp">Temperature:</p>
-            <p id="wind">Wind speed:</p>
+    <div class="input">
+        <input id="cityname" type="text" placeholder="Search...." />
+    </div>
+    <div id="card--container">
+        <div class="result res1">
+            <p id="city"></p>
+            <div>
+                <span id="icon"></span>
+                <p id="sky">Sky condition:</p>
+                <p id="temp">Temperature:</p>
+                <p id="wind">Wind speed:</p>
+            </div>
         </div>
     </div>
+    <footer class="contact">
+        <a href="https://github.com/salted0dreams" target="_blank"><i class="fa-brands fa-github fa-3x"></i></a>
+        <a href="https://www.instagram.com/btw.fy/" target="_blank"><i class="fa-brands fa-instagram fa-3x"></i></a>
+        <a href="https://www.linkedin.com/in/aryan-sharma-3035b7226/" target="_blank"><i class="fa-brands fa-linkedin-in fa-3x"></i></a>
+    </footer>
     <script src="app.js"></script>
 </body>
+
 </html>
