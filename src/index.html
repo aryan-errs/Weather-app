@@ -8,16 +8,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 class="name">Weather App</h1>
+    <div class="name"><h1>A Simple Weather App</h1></div>
     <div class="input">
-        <input id="cityname" type="text" placeholder=" Enter any city..">
-        <button id="submit">Sumbit</button>
+        <input id="cityname" type="text" placeholder="Search..">
     </div>
     <div class="result res1">
-        <p id="city">Weather of </p>
-        <p id="sky">Sky condition:</p>
-        <p id="temp">Temperature:</p>
-        <p id="wind">Wind speed:</p>
+        <p id="city"></p>
+        <div>
+            <span id="icon"></span>
+            <p id="sky">Sky condition:</p>
+            <p id="temp">Temperature:</p>
+            <p id="wind">Wind speed:</p>
+        </div>
     </div>
     <script src="app.js"></script>
 </body>

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(8, 25, 54);
+    font-family: 'Varela Round', sans-serif;
+    color:rgb(179, 131, 252);
+}
+
+.name{
+    height: 10vh;
+    padding-top:20px;
+    margin-top: 10px;
+}
+.name h1{
+    font-size: 65px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    width: 30vw;
+    justify-content: flex-start;
+    align-items: center;
+}
+#cityname{
+    position: relative;
+    width: 18vw;
+    height: 5vh;
+    margin: 1vh;
+    font-size: 30px;
+    border-radius: 1rem;
+    border: hidden;
+    text-align: center;
+    color:rgb(179, 131, 252);
+    background-color: rgb(8, 25, 54);
+}
+.result{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-top: 1vh;
+    width: 30vw;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.549);
+    border-radius: 20px;
+    
+}
+.res1{
+    opacity: 0%;
+}
+.result div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#city{
+    height: 7vh;
+    width: 100%;
+    font-size: 60px;
+    padding-top: 10px;
+    /* margin-top: 3px; */
+    text-align: center;
+    background-color: rgb(8, 25, 54);
+    border-radius: 20px 20px 0 0;
+}
+#sky{
+    height: 10vh;
+    font-size: 30px;
+    width: 100%;
+    padding-top: 15px;
+    text-align: center;
+}
+#temp{
+    height: 10vh;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+}
+#wind{
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    height: 10vh;
+}
+#icon img{
+    width: auto;
+    height: auto;
+}
