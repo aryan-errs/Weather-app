@@ -11,7 +11,7 @@ body{
     display:flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(8, 25, 54);
+    /* background-color: rgb(8, 25, 54); */
     font-family: 'Varela Round', sans-serif;
     color:rgb(179, 131, 252);
     overflow: hidden;
@@ -23,13 +23,18 @@ body{
     margin-top: 10px;
     display: flex;
 }
+
+.contains{
+    background-color: rgb(8, 25, 54);
+    border-radius: 0px 0px 20px 20px;
+}
 .name h1{
     font-size: 65px;
     padding-right: 10px;
 }
 .input{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height: 20vh;
     width: 30vw;
     justify-content: flex-start;
@@ -37,15 +42,26 @@ body{
 }
 #cityname{
     position: relative;
-    width: 18vw;
+    width: 30vw;
     height: 5vh;
     margin: 1vh;
     font-size: 30px;
     border-radius: 1rem;
-    border: hidden;
     text-align: center;
     color:rgb(179, 131, 252);
     background-color: rgb(8, 25, 54);
+}
+#submit{
+    width: 50px;
+    height: 50px;
+    margin: 1vh;
+    background-color: white;
+    border-radius: 10%;
+}
+#submit:hover{
+    cursor: pointer;
+    transition: all 0.3s linear;
+    color: white;
 }
 #card--container{
     height: 65vh;
